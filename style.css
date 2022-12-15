@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+
+body {
+  box-sizing: border-box;
+}
+
+.first {
+  background-color: hsl(31, 77%, 52%) !important ;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.second {
+  background-color: hsl(184, 100%, 22%) !important;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.three {
+  background-color: hsl(179, 100%, 13%);
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.titles {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+/* BUTTON's */
+.btn {
+    color: hsl(0, 0%, 95%) !important;
+    background-color: #fff !important;
+    font-size: large !important;
+    width: 150px !important;
+    border-radius: 30px !important;
+  }
+  
+.button1 {
+  color: hsl(31, 77%, 52%) !important ;
+}
+
+.button2 {
+  color: hsl(184, 100%, 22%) !important ;
+}
+
+.button3 {
+  color: hsl(179, 100%, 13%) !important ;
+}
+
+/* HOVER EFFECTS */
+
+.button1:hover {
+  color: #fff !important;
+  background-color: hsl(31, 77%, 52%) !important;
+  border: 1px solid #fff !important;
+}
+.button2:hover {
+  color: #fff !important;
+  background-color: hsl(184, 100%, 22%) !important;
+  border: 1px solid #fff !important;
+}
+.button3:hover {
+  color: #fff !important;
+  background-color: hsl(179, 100%, 13%) !important;
+  border: 1px solid #fff !important;
+}
+/* MEDIA QUERY */
+@media only screen and (min-width: 768px) {
+  .first {
+    border-radius: 15px 0 0 15px;
+  }
+  .three {
+    border-radius: 0 15px 15px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .first {
+    border-radius: 15px 15px 0 0;
+  }
+  .three {
+    border-radius: 0 0 15px 15px;
+  }
+}
